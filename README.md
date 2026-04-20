@@ -1,4 +1,7 @@
 # Teste Prático: Gestão de Funcionários em Java
+# Desafio Java Júnior - Gestão de Funcionários
+
+![Demonstração do Projeto](./assets/demoProjetoJava.gif)
 
 Este projeto foi desenvolvido como parte de um processo seletivo para vaga Júnior **Desenvolvedora de Software Júnior**. O objetivo é aplicar conceitos fundamentais de Programação Orientada a Objetos (POO) e manipulação de dados com a API de Streams do Java.
 
@@ -22,5 +25,8 @@ Apesar de ser um sistema de console, ele resolve problemas reais de lógica:
 `javac br/com/empresa/Principal.java`
 4. Execute: `java br.com.empresa.Principal`
 
+Ao rodar a classe `Principal`, o sistema exibirá os relatórios formatados no console e, ao final, gerará automaticamente o arquivo `funcionarios_exportados.csv`.
+
+> **Nota sobre a exportação:** O sistema gera uma exportação em .csv configurada com delimitadores de ponto e vírgula e formatação numérica regional (PT-BR). Isso permite que o usuário final (RH/Contabilidade) abra o arquivo diretamente no Excel ou Google Sheets sem a necessidade de passar por assistentes de importação ou conversão de tipos de dados.
 ---
 *Ótima opotunidade de aprendizado focado em fundamentos e organização de código, pela primeira vez em Java.*
