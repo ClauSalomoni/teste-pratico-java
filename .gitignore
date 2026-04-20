@@ -1,0 +1,7 @@
+# Compilados do Java
+*.class
+
+# Pastas de IDEs 
+.vscode/
+.idea/
+bin/
